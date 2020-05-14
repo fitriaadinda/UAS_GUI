@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tumbasno</title>
+  <link rel="icon" type="image/png" href="image/icon/SLOGO.jpeg" /> <!-- Menampilkan ikon pada Tab bar -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- My Font -->
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <!-- My JS -->
+  <script type="text/javascript" src="js/global.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand page-scroll" href="index.html"><img src="image/icon/LOGO.jpeg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <!-- <span class="nav-item nav-link active page-scroll" href="#home">Home <span class="sr-only">(current)</span></a> -->
+          <a class="nav-item nav-link page-scroll" href="#panel-pelayanan">LAYANAN KAMI</a>
+          <a class="nav-item nav-link page-scroll" href="#panel-produk">PRODUK KAMI</a>
+          <a class="nav-item nav-link page-scroll" href="#panel-review">TESTIMONIAL</a>
+          <a class="nav-item btn btn-light button" data-toggle="modal" data-target="#exampleModal">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron ij jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4"> <img src="image/icon/LOGO.jpeg" style="width: 450px;"></h1>
+      <a href="#" class="s1"><img src="image/icon/ig.png" class="rounded-circle sosmed"></a>
+      <a href="#" class="s2"><img src="image/icon/wa.png" class=" rounded-circle sosmed"></a>
+      <a href="#" class="s3"><img src="image/icon/fb.png" class="rounded-circle sosmed"></a>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-2 offset-4">
+        <input type="text" class="form-control" placeholder="Pasar Daerah Anda..." style="width:300px">
+      </div>
+      <div class="col-md-3">
+        <a href="#panel-produk" class="btn btn-light button1" style="width:150px">Cari</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- LAYANAN KAMI  -->
+  <div class="panel-pelayanan" id="panel-pelayanan">
+    <div class="container">
+      <h2 class="pk"><strong>PELAYANAN KAMI</strong></h2>
+
+      <div class="row mb-4 p1">
+        <div class="col-md-4 text-right">
+          <h3>Praktis</h3>
+          <p>Belanja ke Pasar menjadi lebih mudah. Nikmati Promo tiap bulanannya</p>
+        </div>
+        <div class="col-md-2">
+          <img src="image/icon/praktis.png" alt="praktis">
+        </div>
+      </div>
+      <div class="row mb-4 p2">
+        <div class="col-md-2 offset-6">
+          <img src="image/icon/time.png" alt="time">
+        </div>
+        <div class="col-md-4 text-left">
+          <h3>Hemat Waktu</h3>
+          <p>Meluangkan waktu dengan keluarga menjadi lebih lama, urusan belanjamu kami yang urus.</p>
+        </div>
+      </div>
+      <div class="row mb-4 p3">
+        <div class="col-md-4 text-right">
+          <h3>Garansi Kualitas</h3>
+          <p>Jika kamu tidak puas dengan kualitas barang dari kami, kami akan menggantinya (Claim di hari yang sama).
+          </p>
+        </div>
+        <div class="col-md-2">
+          <img src="image/icon/guarantee.png" alt="guarantee">
+        </div>
+      </div>
+      <div class="row mb-4 p4">
+        <div class="col-md-2 offset-6">
+          <img src="image/icon/demand.png" alt="demand">
+        </div>
+        <div class="col-md-4 text-left">
+          <h3>On Demand Service</h3>
+          <p>Batas waktu order sampai jam 08.00 pagi (diatas jam 08.00 pagi, akan diantar besok pagi). Maksimal
+            pengantaran jam 11.00 siang.</p>
+        </div>
+      </div>
+      <div class="row mb-4 p5">
+        <div class="col-md-4 text-right">
+          <h3>Order Malam Hari</h3>
+          <p>Kamu bisa request jam pengantaran, jika Anda pesan pada hari sebelumnya.</p>
+        </div>
+        <div class="col-md-2">
+          <img src="image/icon/delivery.png" alt="delivery">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PRODUK KAMI  -->
+  <div class="panel-produk" id="panel-produk">
+    <div class="container-fluid">
+      <h2 class="kk"><strong>PRODUK KAMI</strong></h2>
+      <div class="row">
+        <div class="col-md-1 offset-2 ck1">
+          <a href=""><img src="image/icon/vegetables.png" class="rounded-circle" alt="vegetables"></a>
+          <p>Sayur</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/fruit.png" class="rounded-circle" alt="fruit"></a>
+          <p>Buah</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/meat.png" class="rounded-circle" alt="meat"></a>
+          <p>Daging</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/seafood.png" class="rounded-circle" alt="seafood"></a>
+          <p>Seafood</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/food.png" class="rounded-circle" alt="food"></a>
+          <p>Sembako</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/spices.png" class="rounded-circle" alt="spices"></a>
+          <p>Bumbu</p>
+        </div>
+        <div class="col-md-1 ck2">
+          <a href=""><img src="image/icon/snack.png" class="rounded-circle" alt="snack"></a>
+          <p>Jajanan</p>
+        </div>
+        <div class="col-md-1 ck3">
+          <a href=""><img src="image/icon/more.png" class="rounded-circle" alt="more"></a>
+          <p>More</p>
+        </div>
+      </div>
+
+      <!-- List Produk -->
+      <div class="row codepen-hovercards" style="margin-top: 50px; padding: 10px;">
+        <div class="col-md-2 offset-1">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/ubi.jpeg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Ubi Ungu</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 25000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/tomat.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Tomat</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 2000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/Sapi.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Daging Sapi</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 100000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/udang.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Udang</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 45000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/mangga.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Mangga</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 15000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row codepen-hovercards" style="margin-top: 50px; padding: 10px;">
+        <div class="col-md-2 offset-1">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/cabe.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Cabe Merah</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 5000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/jamur.png" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Jamur</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 20000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/kelepon.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Kelepon</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 2000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/onde.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Onde-Onde</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 1000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="hovercard">
+            <div class="card">
+              <img src="image/produk/beras.jpg" class="card-img-top" alt="..." style="width: 200px; height: 150px;">
+              <div class="card-body">
+                <p class="card-text" style="color: black; margin-top: -20px;">Beras</p>
+                <p class="card-text" style="color: black; margin-top: -20px; font-weight: bold;">Rp 50000</p>
+              </div>
+            </div>
+            <a href="#" class="hovercard-overlay">
+              <span class="button _inverse" style="background-color: red; font-weight: bold; width: 80px;">Buy</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <a class="btn btn-light button" href="produk.html">Belanja Sekarang</a>
+
+    </div>
+  </div>
+
+
+
+  <!-- TESTIMONIAL -->
+  <div class="panel-review" id="panel-review">
+    <div class="bd-example">
+      <h2 class="kk text-center"><strong>TESTIMONIAL</strong></h2>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <div class="img-box"><img src="image/female_avatar.svg" alt=""></div><br>
+            <p class="overview"><b>Paula Wilson</b>, Ibu Rumah Tangga</p>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius
+              quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum
+              scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+          </div>
+
+          <div class="item carousel-item">
+            <div class="img-box"><img src="image/male_avatar.svg" alt=""></div><br>
+            <p class="overview"><b>Antonio Moreno</b>, Pedagang Pasar</p>
+            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+              suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse
+              potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+          </div>
+
+          <div class="item carousel-item">
+            <div class="img-box"><img src="image/male_avatar.svg" alt=""></div><br>
+            <p class="overview"><b>Antonio Moreno</b>, Karyawan</p>
+            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+              suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse
+              potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: black;"><i
+              class="fas fa-window-close" aria-hidden="true"></i></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <h5>LOGIN</h5>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+  <!-- Footer -->
+  <div class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2><strong>Tentang Kami</strong></h2>
+          <p>Kami Hadir sebagai pasar tradisional yang telah merambah ke sistem online, sehingga memudahkan masyarakat
+            dalam berbelanja dipasar tradisional</p>
+        </div>
+        <div class="col-md-2">
+          <h2><strong>Home</strong></h2>
+          <a href="">LAYANAN KAMI</a>
+          <br>
+          <a href="">PRODUK KAMI</a>
+          <br>
+          <a href="">TESTIMONIAL</a>
+        </div>
+        <div class="col-md-4">
+          <h2><strong>Tumbasno</strong></h2>
+          <a href="">Sayur</a>
+          <br>
+          <a href="">Buah</a>
+          <br>
+          <a href="">Daging</a>
+          <br>
+          <a href="">Seafood</a>
+          <br>
+          <a href="">Sembako</a>
+          <br>
+          <a href="">Bumbu Dapur</a>
+          <br>
+          <a href="">Snack</a>
+        </div>
+        <div class="col-md-3">
+          <br>
+          <a class="footer-brand" href="index.php"><img src="image/icon/LOGO.jpeg" alt="logo"></a>
+          <br><br><br>
+          <p>Copyright © 2019 Tumbasno, All Rights Reseverd</p>
+          <p>Find Us on Social Media</p>
+          <a href="#"><img src="image/icon/ig.png" alt="IG" class="sf"></a>
+          <a href="#"><img src="image/icon/fb.png" alt="fb" class="sf"></a>
+          <a href="#"><img src="image/icon/line.png" alt="line" class="sf"></a>
+          <a href="#"><img src="image/icon/wa.png" alt="WA" class="sf"></a>
+          <a href="#"><img src="image/icon/email.png" alt="email" class="sf"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
